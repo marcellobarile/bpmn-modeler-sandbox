@@ -1,18 +1,17 @@
 {
   "name": "bpmn-modeler",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.html",
+  "type": "module",
   "scripts": {
-    "start": "parcel index.html --open",
-    "build": "parcel build index.html"
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "bpmn-js": "11.0.5"
+    "bpmn-js": "18.6.3",
+    "bpmn-moddle": "9.0.3"
   },
   "devDependencies": {
-    "@babel/core": "7.2.0",
-    "parcel-bundler": "^1.6.1"
-  },
-  "keywords": []
+    "vite": "^7.1.3"
+  }
 }
