@@ -296,7 +296,6 @@ const initializeStatsWidget = () => {
     });
   }
 
-  // Initial UI update
   updateWidgetUI();
 };
 
