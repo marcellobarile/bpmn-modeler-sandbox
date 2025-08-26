@@ -9,7 +9,14 @@
   },
   "dependencies": {
     "bpmn-js": "18.6.3",
-    "bpmn-moddle": "9.0.3"
+    "bpmn-moddle": "9.0.3",
+    "zeebe-bpmn-moddle": "1.11.0",
+    "@camunda/linting": "3.42.0",
+    "bpmnlint": "11.6.0",
+    "bpmn-js-element-templates": "github:bpmn-io/bpmn-js-element-templates#templates-cache",
+    "@camunda/connectors-element-templates": "1.0.6",
+    "@bpmn-io/properties-panel": "3.33.0",
+    "bpmn-js-properties-panel": "5.42.0"
   },
   "devDependencies": {
     "vite": "^7.1.3"
